@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="https://friconix.com/cdn/friconix.js"> </script>
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="fi-xnsuxl-car-front"></i>&nbsp <em class="red_brand">Quick</em>-Spare</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Category</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Deals</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="#">Delivery</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn se btn-outline-success" type="submit">Search</button>
+        </form>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><i class="fi-cwluxl-user-tie-circle"></i>&nbsp&nbsp</a>
+            
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active notification" aria-current="page" href="#">
+              <i class="fi-xwluhl-shopping-cart-wide"></i>&nbsp&nbsp 
+              <span class="badge">3</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- CAROSEL -->
+  <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="static/pic1.jpg" class="d-block w-100 img" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="static/pic2.jpg" class="d-block w-100 img" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- spare filter -->
+  <h2 class="spare_filter">Spare Filter</h2>
+  <section id="filt">
+  <div class="fil_strip">
+  <div class="dropdown">
+    <button class="btn btn-light dropdown-toggle btn-lg btn-drop" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+       Brand
+    </button>
+    <ul class="dropdown-menu dropdown-menu-light">
+      <li><a class="dropdown-item active" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Separated link</a></li>
+    </ul>
+  </div>
+  <div class="dropdown">
+    <button class="btn btn-light dropdown-toggle btn-lg btn-drop" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Model
+    </button>
+    <ul class="dropdown-menu dropdown-menu-light">
+      <li><a class="dropdown-item active" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Separated link</a></li>
+    </ul>
+  </div>
+  <div class="dropdown">
+    <button class="btn btn-light dropdown-toggle btn-lg btn-drop" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Varient
+    </button>
+    <ul class="dropdown-menu dropdown-menu-light">
+      <li><a class="dropdown-item active" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Separated link</a></li>
+    </ul>
+  </div>
+  
+  <button type="button search" class="btn btn-outline-success btn_filt_search">Search</button>
+</section>
+</div>
+</body>
+</html>
